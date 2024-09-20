@@ -725,6 +725,7 @@ define Device/netgear_ex3700
   DEVICE_VENDOR := NETGEAR
   DEVICE_MODEL := EX3700/EX3800
   SUPPORTED_DEVICES += ex3700
+  DEFAULT := n
 endef
 TARGET_DEVICES += netgear_ex3700
 
@@ -738,6 +739,7 @@ define Device/netgear_ex6120
   DEVICE_PACKAGES := kmod-mt76x2
   DEVICE_VENDOR := NETGEAR
   DEVICE_MODEL := EX6120
+  DEFAULT := n
 endef
 TARGET_DEVICES += netgear_ex6120
 
@@ -751,6 +753,7 @@ define Device/netgear_ex6130
   DEVICE_PACKAGES := kmod-mt76x2
   DEVICE_VENDOR := NETGEAR
   DEVICE_MODEL := EX6130
+  DEFAULT := n
 endef
 TARGET_DEVICES += netgear_ex6130
 
